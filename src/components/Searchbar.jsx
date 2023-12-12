@@ -13,6 +13,7 @@ function Searchbar() {
                     `http://hn.algolia.com/api/v1/search?query=${query}`
                 );
                 setResults(response.data.hits);
+
             } catch (error) {
                 console.log(error);
             }
@@ -25,6 +26,13 @@ function Searchbar() {
         }
     }, [query]);
 
+
+    const removePost = (objectIDToRemove) => {
+        const updatedResults = results.filter(
+            (result) => result.objectID !== objectIDToRemove
+        );
+        setResults(updatedResults);
+    };
 
     return (
         <div>
@@ -55,10 +63,10 @@ function Searchbar() {
                                             <p class="card-intro">Author: <span id='spanauthor'>{result.author}</span> </p>
                                         </div>
                                         <div className='btndiv'>
-                                            <a href={`/post/${result.objectID}`} target='_blank'>
+                                            <a href={`/post/${result.objectID}`} target='blank'>
                                                 <button type="button" class="Learnbtn" >Learn More</button>
                                             </a>
-                                            <a href="#" className='remntn'>Remove</a>
+                                            <a href="#" className='remntn' onClick={() => removePost(result.objectID)}>Remove</a>
                                         </div>
                                     </div>
                                 </div>

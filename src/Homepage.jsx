@@ -7,7 +7,6 @@ function Homepage() {
     <div>
       <Navbar/>
       <Searchbar/>
-      
     </div>
   )
 }
