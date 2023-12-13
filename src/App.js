@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Homepage from './Homepage';
 import Postdetails from './components/Postdetails';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Hometemp from './Hometemp';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (<Homepage />),
+    element: (<Hometemp />),
   },
   {
     path: "/post/:objectID",

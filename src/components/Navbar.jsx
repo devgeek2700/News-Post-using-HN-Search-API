@@ -1,28 +1,31 @@
 import React from 'react'
-import "../App.css"
+import "../Home.css"
 
 function Navbar() {
     return (
         <>
-            <nav class="navbar">
-                <div class="navbar-container container">
-                    <input type="checkbox" name="" id="" />
-                    <div class="hamburger-lines">
-                        <span class="line line1"></span>
-                        <span class="line line2"></span>
-                        <span class="line line3"></span>
+            <header id="topHeader">
+                <ul id="topInfo">
+                    <li>+974 98765432</li>
+                    <li>newspost@news.com</li>
+                </ul>
+
+                <nav>
+                    <span class="logo">NewsPOST</span>
+                    <div class="menu-btn-3" onclick="menuBtnFunction(this)">
+                        <span></span>
                     </div>
-                    <ul class="menu-items">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Category</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Testimonial</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    <h1 class="logo">NewsPOST</h1>
-                </div>
-            </nav>
+                    <div class="mainMenu">
+                        <a href="#"><span>Home</span></a>
+                        <a href="#"><span>Services</span></a>
+                        <a href="#"><span>Portfolio</span></a>
+                        <a href="#"><span>About Us</span></a>
+                        <a href="#"><span>Career</span></a>
+                        <a href="#"><span>Blog</span></a>
+                        <a href="#">Get Started</a>
+                    </div>
+                </nav>
+            </header>
         </>
     )
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from "axios";
-import "../App.css"
+import "../Home.css"
 
 function Searchbar() {
     const [query, setQuery] = useState("");
@@ -50,7 +50,7 @@ function Searchbar() {
 
             {/* Search Results */}
 
-            <div class="rescontainer">
+            <div class="rescontainer" id="">
 
                 {
                     results.map((result) => {
@@ -63,7 +63,7 @@ function Searchbar() {
                                             <p class="card-intro">Author: <span id='spanauthor'>{result.author}</span> </p>
                                         </div>
                                         <div className='btndiv'>
-                                            <a href={`/post/${result.objectID}`} target='blank'>
+                                            <a href={`/post/${result.objectID}`} target='blank' className='seachposta'>
                                                 <button type="button" class="Learnbtn" >Learn More</button>
                                             </a>
                                             <a href="#" className='remntn' onClick={() => removePost(result.objectID)}>Remove</a>
