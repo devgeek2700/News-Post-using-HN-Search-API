@@ -50,19 +50,19 @@ https://newspost-api.onrender.com
 
 ## Homepage 
 
-![App Screenshot](https://github.com/devgeek2700/Login-using-OAuth0-Reactjs-Vite/blob/master/1.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/News-Post-using-HN-Search-API/blob/master/Ouput/1.png?raw=true)
 
-## Form page
+## Search Results
 
-![App Screenshot](https://github.com/devgeek2700/Login-using-OAuth0-Reactjs-Vite/blob/master/2.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/News-Post-using-HN-Search-API/blob/master/Ouput/2.png?raw=true)
 
-## Social Login
+## Post Details
 
-![App Screenshot](https://raw.githubusercontent.com/devgeek2700/Login-using-OAuth0-Reactjs-Vite/master/3.webp)
+![App Screenshot](https://github.com/devgeek2700/News-Post-using-HN-Search-API/blob/master/Ouput/3.png?raw=true)
 
-## Information Display
+## Remove Post
 
-![App Screenshot](https://github.com/devgeek2700/Login-using-OAuth0-Reactjs-Vite/blob/master/4.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/News-Post-using-HN-Search-API/blob/master/Ouput/4.png?raw=true)
 
 
 
