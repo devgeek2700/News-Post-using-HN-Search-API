@@ -1,7 +1,6 @@
 # React News Post with HN Search API
 
-This application's primary purpose is to allow users to search for news posts. The application features a search bar where users can input their search queries. This implies that users can look for specific title of interest within the news posts. The application leverages the Hacker News Search API as a source for retrieving news posts. The Hacker News API is a public API that provides access to data from the Hacker News platform. The application is developed using React, React hooks, such as useReducer, useContext and useEffect, are employed for efficient state management in the application. This application enhances the user experience by providing a search bar for easy access to specific news topics. 
-
+This application's primary purpose is to allow users to search for news posts. The application features a search bar where users can input their search queries. This implies that users can look for a specific title of interest within the news posts. The application leverages the Hacker News Search API as a source for retrieving news posts. The Hacker News API is a public API that provides access to data from the Hacker News platform. The application is developed using React, and React hooks such as useState and useEffect are employed for efficient state management in the application. This application enhances the user experience by providing a search bar for easy access to specific news topics. It includes a search bar for searching the post, a 'Learn More' button that dynamically fetches the news post details, and a 'Remove' button for deleting the news post.
 
 ## Features
 
