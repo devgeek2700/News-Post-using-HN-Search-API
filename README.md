@@ -49,6 +49,7 @@ https://newssearchpost.onrender.com
 
 ## Homepage 
 
+![App Screenshot](https://github.com/devgeek2700/News-Post-using-HN-Search-API/blob/master/Ouput/1f.png?raw=true)
 
 ## Search Results
 
