@@ -42,7 +42,13 @@ To get started with the project, follow these steps:
 
 4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to explore the news posts.
 
+## LIVE Projects
+
+https://newspost-api.onrender.com
+
+
 ## Usage
+
 
 Upon opening the application, it will fetch and display news posts from the Hacker News Search API. Users can browse through the posts and view detailed information.
 
