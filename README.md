@@ -43,13 +43,12 @@ To get started with the project, follow these steps:
 
 ## LIVE Projects
 
-https://newspost-api.onrender.com
+https://newssearchpost.onrender.com
 
 ## Screenshot
 
 ## Homepage 
 
-![App Screenshot](https://github.com/devgeek2700/News-Post-using-HN-Search-API/blob/master/Ouput/1.png?raw=true)
 
 ## Search Results
 
