@@ -46,6 +46,25 @@ To get started with the project, follow these steps:
 
 https://newspost-api.onrender.com
 
+## Screenshot
+
+## Homepage 
+
+![App Screenshot](https://github.com/devgeek2700/Login-using-OAuth0-Reactjs-Vite/blob/master/1.png?raw=true)
+
+## Form page
+
+![App Screenshot](https://github.com/devgeek2700/Login-using-OAuth0-Reactjs-Vite/blob/master/2.png?raw=true)
+
+## Social Login
+
+![App Screenshot](https://raw.githubusercontent.com/devgeek2700/Login-using-OAuth0-Reactjs-Vite/master/3.webp)
+
+## Information Display
+
+![App Screenshot](https://github.com/devgeek2700/Login-using-OAuth0-Reactjs-Vite/blob/master/4.png?raw=true)
+
+
 
 ## Usage
 
