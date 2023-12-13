@@ -11,7 +11,7 @@ function Postdetails() {
         const fetchPost = async () => {
             try {
                 const response = await axios.get(
-                    `http://hn.algolia.com/api/v1/items/${objectID}`
+                    `https://hn.algolia.com/api/v1/items/${objectID}`
                 );
                 setPost(response.data);
             } catch (error) {
