@@ -58,7 +58,7 @@ https://newspost-api.onrender.com
 
 ## Post Details
 
-![App Screenshot](https://github.com/devgeek2700/News-Post-using-HN-Search-API/blob/master/Ouput/3.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/News-Post-using-HN-Search-API/blob/master/Ouput/31.png?raw=true)
 
 ## Remove Post
 
